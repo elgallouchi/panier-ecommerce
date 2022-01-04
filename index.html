@@ -51,17 +51,34 @@
                   <th colspan="2">Produit</th>
                   <th>Prix</th>
                   <th>Quantité</th>
-                  <th>Total</th>
+                  <th colspan="2">Total</th>
                 </tr>
               </thead>
               <tbody id="display-product"></tbody>
               <tfoot>
                 <tr class="total">
                   <td colspan="4">Total</td>
-                  <td class="price-total" id="total-price">0</td>
+                  <td class="price-total" id="total-price" colspan="2">0</td>
                 </tr>
               </tfoot>
             </table>
+          </div>
+          <div class="checkout">
+            <div class="order">
+              <h3>Validation</h3>
+              <div>Livraison <span id="total-shipping">7.36</span></div>
+              <div>Total <span id="total-order">7.36</span></div>
+              <div>
+                <button class="btn-validation">Valider ma commande</button>
+              </div>
+            </div>
+            <div class="promo">
+              Code promo
+              <div>
+                <input type="text" value="CD2022JS" />
+                <button id="add-promo">Ajouter</button>
+              </div>
+            </div>
           </div>
           <!-- Cart end -->
         </div>
