@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/aside.css" />
     <link rel="stylesheet" href="./css/cart.css" />
+    <!-- <link rel="stylesheet" href="./css/adv.css" /> -->
+
     <link rel="stylesheet" href="./css/footer.css" />
     <title>eMarket | Impossible de trouver moin cher.</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" />
   </head>
   <body>
     <!-- header start -->
@@ -23,7 +26,7 @@
             <span>e</span>
             <span>Market</span>
           </h1>
-          <span>Impossible de trouver moin cher</span>
+          <span>Toujours moin cher</span>
         </div>
         <div class="menu">
           <div class="menu-mobile">|||</div>
@@ -40,7 +43,7 @@
     <!-- header end -->
 
     <main>
-      <section class="cart-section ">
+      <section class="cart-section">
         <div class="container">
           <!-- Cart start -->
           <div class="cart">
@@ -66,18 +69,19 @@
           <div class="checkout">
             <div class="order">
               <h3>Validation</h3>
-              <div>Livraison <span id="total-shipping">7.36</span></div>
-              <div>Total <span id="total-order">7.36</span></div>
+              <div>Livraison <span id="total-shipping">0</span></div>
+              <div>Total <span id="total-order">0</span></div>
               <div>
                 <button class="btn-validation">Valider ma commande</button>
               </div>
             </div>
             <div class="promo">
-              Code promo
+              Code promo ?
               <div>
-                <input type="text" value="CD2022JS" />
+                <input type="text" value="CD2022" />
                 <button id="add-promo">Ajouter</button>
               </div>
+              <div id="code-promo-msg"></div>
             </div>
           </div>
           <!-- Cart end -->
