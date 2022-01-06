@@ -1,0 +1,158 @@
+/* tablet end */
+@media screen and (min-width: 481px) and (max-width: 960px) {
+    .products-section .container {
+        width: 90%;
+    }
+
+    .card {
+        width: 46%;
+    }
+
+    .section-partener .container, .section-newsletter .container, .cart-section .container {
+        width: 90%;
+    }
+
+    .cart-section .container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .cart {
+        width: 100%;
+    }
+
+    .checkout {
+        width: 100%;
+    }
+}
+
+/* tablet end */
+
+/* Mobile start */
+@media screen and (max-width: 480px) {
+    header {
+        padding: .3rem 0
+    }
+
+    header .container {
+        width: 90%;
+    }
+
+    header .container .logo h1 {
+        font-size: 1.3rem
+    }
+
+    header .container .logo>span {
+        font-size: .8rem;
+    }
+
+    header .container .menu nav a {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .products-section .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .products {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .card {
+        width: 80%;
+        margin: 4%;
+    }
+
+    .categories {
+        position: absolute;
+        width: 100%;
+        top: 0rem;
+    }
+
+    .categories.show-mobile {
+        display: none;
+    }
+
+    header .container .menu .menu-mobile {
+        display: flex;
+    }
+
+    .categories ul {
+        width: 50%;
+        background-color: #fff;
+        border-radius: 0;
+    }
+
+    .categories>ul>li>ul {
+        left: 100%;
+    }
+
+
+    .company-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company-logo img {
+        margin-bottom: 1rem;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .form>input {
+        margin-bottom: .7rem;
+        border-radius: .3rem !important;
+        width: 90%;
+    }
+
+    .form>button {
+        border-radius: .3rem !important;
+        width: 90%;
+    }
+
+    footer .container {
+        width: 90%;
+    }
+
+    .icons-social-media a img {
+        width: 2rem;
+    }
+
+    footer .container .footer-services {
+        flex-wrap: wrap;
+    }
+
+    footer .container .footer-services .block {
+        width: 100%;
+    }
+
+    /* cart start */
+    .cart-section .container {
+        width: 90%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .cart {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .checkout {
+        width: 100%;
+    }
+
+    /* cart end */
+}
+
+/* Mobile end */
+
