@@ -311,3 +311,10 @@ main {
 }
 
 /* adv */
+
+/* shpping free */
+.free-priceShipping {
+  text-decoration: line-through;
+  color: red;
+}
+/* shpping free */
