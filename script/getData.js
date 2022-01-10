@@ -1,4 +1,4 @@
-import { adv } from "./adv.js";
+import { ads } from "./ads.js";
 
 const showData = async (data) => {
   let output = "";
@@ -17,7 +17,7 @@ const showData = async (data) => {
       star += `<img src="./img/star.png" class="star-gray" alt="" />`;
     }
     // add ads after one card and after five card
-    if (i === 1 || i === 7) output += adv();
+    if (i === 1 || i === 7) output += ads();
 
     output += `
     <!-- card start -->

@@ -318,3 +318,10 @@ main {
   color: red;
 }
 /* shpping free */
+
+/*  */
+.payment-method img {
+  width: 100%;
+  padding: 1rem;
+}
+/*  */
