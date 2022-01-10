@@ -75,7 +75,7 @@ const msgProductAdded = (btn) => {
 
   div.innerHTML = `
   <div class="check-msg">
-    <img src="./img/check.png" alt="check"/>
+    <img src="./img/assets/check.png" alt="check"/>
     <span>Ajouté au panier</span>
   </div>
   <div class="check-product">

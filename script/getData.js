@@ -10,11 +10,11 @@ const showData = async (data) => {
     let star = "";
     // add image start according to rating average
     for (let i = 0; i < ratingAverage; i++) {
-      star += `<img src="./img/star.png" alt="" />`;
+      star += `<img src="./img/assets/star.png" alt="" />`;
     }
     // add gray star if total stars less than 5
     for (let i = ratingAverage; i < 5; i++) {
-      star += `<img src="./img/star.png" class="star-gray" alt="" />`;
+      star += `<img src="./img/assets/star.png" class="star-gray" alt="" />`;
     }
     // add ads after one card and after five card
     if (i === 1 || i === 7) output += ads();
@@ -46,7 +46,7 @@ const showData = async (data) => {
 
 const fetchData = async (handlClick) => {
   await (document.querySelector(".products").innerHTML =
-    "<div class='loading'><img src='./img/temps-restant.png' alt='' /></div>");
+    "<div class='loading'><img src='./img/assets/temps-restant.png' alt='' /></div>");
   try {
     const response = await fetch("./script/data.json");
     const articles = await response.json();
