@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Ordinateur portable Huawei Matebook",
+      "image": "./img/content/pc-portable-huawei-matebook.png",
+      "description": "Ecran 16 (40,64 cm) Stockage SSD 512 Go Processeur AMD Ryzen 5 4600H Carte graphique Intégrée au processeur",
+      "category": "",
+      "price": 899.99,
+      "rating": [5, 2, 4, 5, 4, 3, 1],
+      "discount": false
+    },
+    {
+      "id": 2,
+      "title": "SAMSUNG Galaxy Tablette A 8.0 T290 2Go de RAM / 32Go WiFi Noir",
+      "image": "./img/content/samsung-galaxy-tablette.jpg",
+      "description": "Tablette sous systeme Android 9.0 (Pie) Ecran de 8'' - Cellulaire : Non Memoire interne: 32 Go - RAM: 2 GoGo Résolution de lecture vidéo: FHD (1920 x 1080 pixels) @ 30fps",
+      "category": "",
+      "price": 178.35,
+      "rating": [1, 3, 2, 5, 3],
+      "discount": false
+    },
+    {
+      "id": 3,
+      "title": "PC Gamer Acer Predator PO3-630-010",
+      "image": "./img/content/pc-gamer-fixe.png",
+      "description": "Processeur Intel Core i5-11400F Carte graphique Nvidia GeForce RTX 3060 Ti 8 Go Mémoire vive 16 Go Stockage 1 To et 256 Go",
+      "category": "",
+      "price": 1499.0,
+      "rating": [3, 4, 2, 5, 4],
+      "discount": false
+    },
+    {
+      "id": 4,
+      "title": "Ordinateur Apple Macbook AIR New M1 8 256 Gris Sideral",
+      "image": "./img/content/Macbook-AIR.png",
+      "description": "Ecran 13,3' (33,8 cm) Stockage SSD 256 Go Processeur Puce Apple M1 Carte graphique Intégrée au processeur",
+      "category": "",
+      "price": 1129.0,
+      "rating": [5, 5, 2, 5, 4, 5, 3, 5, 1, 4, 2, 3, 5, 3, 5, 1, 4, 2, 3, 5, 1],
+      "discount": false
+    },
+    {
+      "id": 5,
+      "title": "Smartphone Samsung Galaxy A12 Bleu",
+      "image": "./img/content/Smartphone-Samsung-Galaxy-A12-Bleu.png",
+      "description": "Ecran large 6,5' soit 16,5 cm Mémoire interne 64 Go Capteurs photos 4 (48 MP en capteur principal) Mémoire RAM 4 Go - Processeur 8 coeurs jusqu'à 2 GHz",
+      "category": "",
+      "price": 169.0,
+      "rating": [1, 2, 1, 2, 3, 1, 1, 1, 1, 1, 1],
+      "discount": false
+    },
+    {
+      "id": 6,
+      "title": "Logiciel antivirus et optimisation Kaspersky Internet Security 2020 MAJ (3 P / 1 AN )",
+      "image": "./img/content/Logiciel-antivirus-Kaspersky-Internet-Security.png",
+      "description": "Version boite Licence Pour 1 an - Securité Internet Nombre d'utilisateur 3",
+      "category": "",
+      "price": 54.99,
+      "rating": [5, 5, 5, 5, 5],
+      "discount": false
+    },
+    {
+      "id": 7,
+      "title": "Fauteuil Gamer Skillkorp SKP_F10",
+      "image": "./img/content/Fauteuil-Game-Skillkorp.png",
+      "description": "Structure assise + dossier Aluminium - Matière Simili-cuir Poids supporté max 120 kg Type d'accoudoirs Fixes - Inclinaison Fixe",
+      "category": "",
+      "price": 89.99,
+      "rating": [1, 2, 2, 5, 4, 1, 1],
+      "discount": false
+    },
+    {
+      "id": 8,
+      "title": "SAMSUNG - Disque Dur Externe - T5 - 500Go (MU-PA500B/EU)",
+      "image": "./img/content/samsung-ssd-externe.jpg",
+      "description": "Avec la mémoire flash Samsung V-NAND et une interface USB 3.1 Gen 2, le T5 offre des vitesses de transfert allant jusqu'à 540 Mo/s, soit 4,9x plus rapide que les disques durs externes traditionnels. Les transferts et sauvegardes de données de grande taille qui comprennent des vidéos 4K et des photos haute résolution seront beaucoup plus rapides.",
+      "category": "",
+      "price": 79.0,
+      "rating": [5, 5, 5, 4, 1, 2, 1, 5, 5, 2, 3, 4],
+      "discount": false
+    }
+  ]
+}
