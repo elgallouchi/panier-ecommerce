@@ -39,11 +39,14 @@ body {
 
 /*  */
 .products {
+  width: 75%;
+
+}
+.products-items {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 
-  width: 75%;
 }
 
 .card {

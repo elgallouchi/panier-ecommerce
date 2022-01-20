@@ -1,6 +1,8 @@
 import { ads } from "./ads.js";
+import { intro } from "./intro.js";
 
 const showData = async (data) => {
+  await intro();
   let output = "";
   await data.map((element, i) => {
     // generate average rating for each product
@@ -41,11 +43,11 @@ const showData = async (data) => {
             <!-- card end -->
             `;
   });
-  await (document.querySelector(".products").innerHTML = output);
+  await (document.querySelector(".products-items").innerHTML = output);
 };
 
 const fetchData = async (handlClick) => {
-  await (document.querySelector(".products").innerHTML =
+  await (document.querySelector(".products-items").innerHTML =
     "<div class='loading'><img src='./img/assets/temps-restant.png' alt='' /></div>");
   try {
     const response = await fetch("./script/data.json");
