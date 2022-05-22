@@ -14,7 +14,7 @@ export const intro = async () => {
     },
     {
       title: "title 3",
-      img: "./img/content/metier.jpg",
+      img: "./img/slide/microsoft-banner-slide.webp",
       description: "description",
     },
   ];
