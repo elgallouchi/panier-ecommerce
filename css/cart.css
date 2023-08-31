@@ -152,6 +152,10 @@ main {
   border-radius: 0.3rem;
   margin-top: 1rem;
 }
+.msg-promo {
+  font-size: .8rem;
+  color: #777;
+}
 
 .checkout .order>div,
 .checkout .promo>div {
